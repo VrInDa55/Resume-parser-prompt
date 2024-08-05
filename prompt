@@ -1,0 +1,130 @@
+Prompt: "Parse my resume into JSON format"
+
+Resume Text: [Insert resume text here]
+// You would provide your resume text as the input
+
+
+JSON Structure:
+1.personal_information: { name, email, phone, location }
+2.summary: { overview of skills and experience }
+3.skills: { technical skills, soft skills }
+4.experience: [{ company, title, dates, responsibilities }]
+5.education: [{ institution, degree, field, dates }]
+6.projects: [{ title, description, technologies, role }]
+7.certifications: [{ name, issuing_authority, date }]
+8.awards: [{ name, awarding_body, date }]
+9.languages: { languages with proficiency levels }
+10.hobbies: { list of hobbies }
+
+JSON CODE:
+{
+  "personal_information": {
+    "name": "John Doe",
+    "email": "john.doe@email.com",
+    "phone": "123-456-7890",
+    "location": "123 Main St, City, State, ZIP"
+  },
+  "summary": {
+    "overview": "Experienced software engineer with a strong background in full-stack development and team leadership. Proven track record of delivering high-quality software solutions on time and within budget."
+  },
+  "skills": {
+    "technical_skills": [
+      "JavaScript",
+      "Python",
+      "React.js",
+      "Node.js",
+      "SQL"
+    ],
+    "soft_skills": [
+      "Team Leadership",
+      "Project Management",
+      "Problem Solving",
+      "Effective Communication"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Tech Company A",
+      "title": "Software Engineer",
+      "dates": "2015 - Present",
+      "responsibilities": [
+        "Developed scalable web applications using React.js and Node.js.",
+        "Led a team of developers for a critical project delivering ahead of schedule.",
+        "Implemented CI/CD pipelines to streamline development and deployment processes."
+      ]
+    },
+    {
+      "company": "Tech Startup B",
+      "title": "Product Manager",
+      "dates": "2013 - 2015",
+      "responsibilities": [
+        "Managed product roadmap and feature prioritization.",
+        "Launched three successful products resulting in 30% revenue growth.",
+        "Coordinated with cross-functional teams to ensure product success."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Example",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "dates": "2011 - 2015"
+    },
+    {
+      "institution": "Business School",
+      "degree": "Master of Business Administration",
+      "field": "Business Administration",
+      "dates": "2015 - 2017"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Alpha",
+      "description": "Developed a web application to optimize logistics and supply chain management.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "role": "Lead Developer"
+    },
+    {
+      "title": "Project Beta",
+      "description": "Created a mobile app for personal finance management.",
+      "technologies": ["Flutter", "Firebase"],
+      "role": "Product Manager"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Scrum Master",
+      "issuing_authority": "Scrum Alliance",
+      "date": "2018"
+    },
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuing_authority": "Amazon Web Services",
+      "date": "2019"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Employee of the Year",
+      "awarding_body": "Tech Company A",
+      "date": "2020"
+    },
+    {
+      "name": "Innovation Award",
+      "awarding_body": "Tech Startup B",
+      "date": "2014"
+    }
+  ],
+  "languages": {
+    "English": "Native",
+    "Spanish": "Professional Working Proficiency",
+    "French": "Basic"
+  },
+  "hobbies": [
+    "Hiking",
+    "Photography",
+    "Reading Science Fiction"
+  ]
+}
+
